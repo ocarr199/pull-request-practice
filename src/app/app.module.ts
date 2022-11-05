@@ -3,13 +3,17 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { BranchComponent } from './branch/branch.component';
+import { TrunkComponent } from './trunk/trunk.component';
+import { BetterbranchComponent } from './betterbranch/betterbranch.component';
 import { RootComponent } from './root/root.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BranchComponent,
-    RootComponent
+    RootComponent,
+    TrunkComponent,
+    BetterbranchComponent
   ],
   imports: [
     BrowserModule
